@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>Welcome to Puppy Rock!</h1>
+    <p>Wanna signup for our Puppy Band?</p>
+    <a href="{{ url_for('signupform') }}" class="btn btn-primary">Sign Me Up!</a>
+</div>
+
+{% endblock %}
+
+
